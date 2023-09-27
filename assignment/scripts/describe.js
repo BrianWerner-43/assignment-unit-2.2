@@ -136,17 +136,53 @@ if (number >= 2) {
 
 /*
 let colorOne = 'red';
+// FIX - colorOne = 'red', but the instructions say colorOne should be set to 'blue and colorTwo is set to 'red'.
+// should be colorOne = 'blue';
+
 let colorTwo = 'blue';
+// should be  let colorTwo = 'red';
+
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
 }
+// In the if statement above, it is checking if mix is true and if it is, colorOne is set to 'purple', but the instructions, it's saying that if mix is true, colorOne and colorTwo are set to 'purple'.
+// FIX - If we want to set colorOne and colorTwo to 'purple', we would update the  conditional, like so:
+
+// if (mix === true) {
+//   colorOne = 'purple';
+//   colorTwo = 'purple';
+// }
+
+
+// updated code should be:
+// let colorOne = 'blue';
+// let colorTwo = 'red';
+// let mix = true;
+
+// if (mix === true) {
+     colorOne = 'purple';
+     colorTwo = 'purple';
+}
+
+// If we console.log true, we get true in the console
+// If we console.log colorOne we get purple in the console
+// If we console.log colorTwo we get purple in the console
+
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
+
+// To Fix the following code, we can update the compound conditional with &&, since that what the instructions say, so the updated code would be:
+// let temp = 40;
+// const time = 4;
+
+// if (temp > 39 && time >= 4) {
+//   console.log('throw away food!');
+//}
 
 /*
 let temp = 40;
