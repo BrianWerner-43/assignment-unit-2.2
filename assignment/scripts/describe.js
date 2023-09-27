@@ -26,9 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make avariable called name and have the value equal to 'Dane'.
+// In the if statement, we check to see if name is true to 'Mary'
+// Since name is not true to 'Mary', that code block won't execute. So the else block will run and we would get 'How do you do?' in the console.
+// Also if we console.log(name); we would get Dane in the console.
 //
 
 //CODE
@@ -45,10 +46,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable named secret that is equal to no value.
+// We created a second variable named code with the value equal to 123.
+// In the first if statement we check if code is true to 123, since code is equal to 123, we set secret to 'super'. Then we are multipling code by 2, for the value of 246.
+// In the second if statement, we check to see if code is greater than 250, since code equals to 246, this code block won't execute.
+// We console.log secret, to get super as the output in the console.
 
 //CODE
 /*
@@ -70,10 +72,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We created a variable named isStudent and set it a boolean of true.
+// We created a second variable named age and gave it a value of 34.
+// We created a variable named zip and have it equal to 55407.
+// In the first if statement, we are checking to see if isStudent is true and if zip is greater than 8000, since zip is less than 8000, the first code block won't run.
+// In the the first else if statement, we check to see if isStudent is false or if age is less than 30. Since isStudent is set to true and the age is 34, this code block won't run.
+// In the second else if statement, we check to see if isStudent equal to true, since isStudent is equal to true, this code block will run.
+// We will get 'Welcome to Prime!' in the console.
 
 //CODE
 /*
