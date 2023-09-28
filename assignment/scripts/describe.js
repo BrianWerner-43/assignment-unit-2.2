@@ -74,8 +74,8 @@ console.log(secret)
 // 3. WRITE YOUR DESCRIPTION HERE
 // We created a variable named isStudent and set it a boolean of true.
 // We created a second variable named age and gave it a value of 34.
-// We created a variable named zip and have it equal to 55407.
-// In the first if statement, we are checking to see if isStudent is true and if zip is greater than 8000, since zip is less than 8000, the first code block won't run.
+// We created a  third variable named zip and have it equal to 55407.
+// In the first if statement, we are checking to see if isStudent is true and if zip is greater than 8000, since zip is less than 8000, so the first code block won't run.
 // In the the first else if statement, we check to see if isStudent is false or if age is less than 30. Since isStudent is set to true and the age is 34, this code block won't run.
 // In the second else if statement, we check to see if isStudent equal to true, since isStudent is equal to true, this code block will run.
 // We will get 'Welcome to Prime!' in the console.
@@ -147,44 +147,23 @@ let mix = true;
 if (mix === true) {
   colorOne = 'purple';
 }
+
 // In the if statement above, it is checking if mix is true and if it is, colorOne is set to 'purple', but the instructions, it's saying that if mix is true, colorOne and colorTwo are set to 'purple'.
-// FIX - If we want to set colorOne and colorTwo to 'purple', we would update the  conditional, like so:
+// FIX - If we want to set colorOne and colorTwo to 'purple, we can achive this by having mix equal to purple by using a compound conditional like so:
 
-// if (mix === true) {
-//   colorOne = 'purple';
-//   colorTwo = 'purple';
-// }
-
-
-// updated code should be:
-// let colorOne = 'blue';
-// let colorTwo = 'red';
-// let mix = true;
-
-// if (mix === true) {
-     colorOne = 'purple';
-     colorTwo = 'purple';
-}
-
-// If we console.log true, we get true in the console
-// If we console.log colorOne we get purple in the console
-// If we console.log colorTwo we get purple in the console
-
+// if (mix === true && colorOne === 'blue' && colorTwo === 'red') {
+   mix = 'purple';
+// } 
+// console.log(mix); this will get the output of purple, since we want to mix colorOne and colorTwo to get purple
 */
+
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
-// To Fix the following code, we can update the compound conditional with &&, since that what the instructions say, so the updated code would be:
-// let temp = 40;
-// const time = 4;
-
-// if (temp > 39 && time >= 4) {
-//   console.log('throw away food!');
-//}
-
 /*
+
 let temp = 40;
 const time = 4;
 
@@ -193,11 +172,37 @@ if (temp > 39 || time >= 4) {
 }
 */
 
+// The instructions say we want to check if temp is greater than 39 and time is greeater than or equal to 4, console.log('throw away the food!).
+// To FIX this code block we could do the following by changing the "||" in the if statement to "&&". Also we can add an else if statment that checks
+// if temp is less than 39 and time is less than 4, we can console.log('keep the food!');
+
+// if (temp > 39 && time >=4) {
+//   console.log('throw away food!');// this code block will execute with 'throw away food! in the console.
+// } else if (temp < 39 && time <= 4) {
+//   console.log('keep the food!');
+// }
+// console.log(temp);// This will output 40 in the console
+/*
+
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
 
+// The discription say we check if age is greater than or equal to minAge, but in the code block it says, if minAge is less than or equal to age.
+// To fix the code, so that we could get enter on the console, we can do the following:
+
+// let age = 21;
+// const minAge = 21;
+
+// if (age >= minAge) {
+  console.log('enter');
+} else {
+  console.log('no entry');
+}
+
+
 /*
+// Original code
 let age = 21;
 const minAge = 21;
 
